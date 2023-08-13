@@ -1,0 +1,19 @@
+{% extends "base.html" %} {% block title %}Inventory{% endblock %} 
+
+{% block content %}
+    <div>
+        <form>
+            <div class="select-box" style="width:10%">
+                <label for="catalogue"> Catalogue: </label>
+                <select id="catalogue" name="catalogue">
+                    <option value="math">Math</option>
+                    <option value="science">Science</option>
+                    <option value="novel">Novel</option>
+                    <option value="psychology">Psychology</option>
+                </select>
+            </div>
+        </form>
+        <div class="rect4">
+        </div>
+    </div>
+{% endblock %} 
